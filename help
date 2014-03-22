@@ -1,0 +1,28 @@
+	HELP CONSOLE
+1. --ip <IP Address>: 		Used to enter a single IP to be scanned.
+				e.g. --ip 127.79.54.79
+
+2. --prefix <IP Subnet/Size>:	Used to enter the prefix range to be. 
+				scanned e.g. --ip 127.79.54.0/24
+
+3. --ports <PORT NO.>	:	Port numbers can be entered as a single
+   or				port or a range of ports or multiple ports 
+   --ports <PORT 1 - PORT 2>	seperated by comma.
+   or				e.g. --ports 80, --ports 80,81
+   --ports <PORT 1, PORT2>
+
+4. --scan <scan-type>	:	Used to enter scan types.
+				e.g. --scan SYN
+
+5. --speedup <no. of threads>:	Used to specify the maximum number
+				of threads.
+				e.g. --speedup 2
+
+6. --file <file_name>	:	Used to enter the file name from which 
+				the program will read the IP address's to
+				scan.
+				e.g. --file ip_file
+
+7. --protocol-range <ptotocols>:Used to enter the protocols to be scanned
+				for Protocol Scan.
+				e.g. --protocol-range 1-20
